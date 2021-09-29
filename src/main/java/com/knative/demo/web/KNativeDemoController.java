@@ -20,7 +20,6 @@ public class KNativeDemoController {
     @SneakyThrows
     @GetMapping
     public String showMessage() {
-        TimeUnit.SECONDS.sleep(2);
         return this.getMessage();
     }
 }
